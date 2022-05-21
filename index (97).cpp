@@ -87,8 +87,8 @@ int main() {
 	string b ;
 	
 	cin >>  b;
-	if (b=="home"){
-		homeloan h ;
+	if (b=="loan"){
+		loan h ;
 		// user will enter his personal details 
     string n ; cin >>n ;
 	h.setname(n);
