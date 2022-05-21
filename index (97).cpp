@@ -53,13 +53,7 @@ void displaybill (){
 }
 
 };
-// class goldloan:public borrower {
-// 	public : int interestrate ;
-// int money ;
-// int durationy ;
-// int emiy ;
 
-// }
 class FD:public person  {
 	public:
 	int interestr;
@@ -91,8 +85,7 @@ void display(){
 
 int main() {
 	string b ;
-	// user will input whether which type of borrower came i have given here two options home and gold 
-	// user will input total no of borrowers
+	
 	cin >>  b;
 	if (b=="home"){
 		homeloan h ;
@@ -102,7 +95,7 @@ int main() {
 	int p ,  q , r , s ,t ;
 	cin >> p>>q >>r >>s;
 	h.setsalary(p);
-	h.setinterestrate(q); //interest rate selected by user as we are in web 3.0(:  
+	h.setinterestrate(q);
 	h.setmoney(r);
 	h.setdurationy(s);
 	int emi = (r*q*pow(1+r,s))/(pow(1+r,s)-1);
@@ -117,7 +110,7 @@ if (b=="lender"){
 	int p ,  q , r , s ,t ;
 	cin >> p>>q >>r >>s;
 	f.setsalary(p);
-	f.setinterestr(q); //interest rate selected by user as we are in web 3.0(:  
+	f.setinterestr(q); 
 	f.setamount(r);
 	f.settime(s);
 	int finalamount = r*pow(1+r/100,s);
