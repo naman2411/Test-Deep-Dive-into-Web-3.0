@@ -1,0 +1,33 @@
+# CODE
+import time
+st = time.time()
+import hashlib
+
+
+s = input()
+x =s 
+for i in range (10000000000000000000):
+        s = x 
+        s = s+str(i)
+        # print(s)
+        hash_object =hashlib.sha256(s.encode('utf-8')).hexdigest()
+        
+
+        if (str (hash_object)<'00000ffffffffffffffffffffffffffffffffffffffffffffffffffffffffff'):
+                
+                print (i)
+                
+                break 
+et = time.time()
+print (et-st) 
+#  Explaination 
+Initially I import time library then created a variable which starts the time then imprted hash library and taken string as input and created a variable that
+stores the string then iterating over a large no initially in the loop we again and again make string to the same input as we have given then appending a no (i)
+and then calculating hash value then we checked whether it is less than to the given hash or not if it is we print the no and break else we again iterate and finally 
+we calculate end time and then calculated the difference between initial and final time and then we print the time 
+# INPUT 
+naman 
+# OUTPUT 
+ 136275
+0.43308424949645996
+THANK YOU 
