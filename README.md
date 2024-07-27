@@ -147,3 +147,4 @@ if (b=="lender"){
   3. As customers are generally exploited in such situation they don't have much view about the company it negatively affects the company also for employees of the company they also lack in honesty which also affect company 
   
   Thank you 
+ 

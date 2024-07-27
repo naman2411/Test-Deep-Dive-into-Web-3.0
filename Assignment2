@@ -108,3 +108,4 @@ contract Loan is MetaCoin {
         sendCoin(creditor,loans[creditor],owner);
      }
 }
+ 
